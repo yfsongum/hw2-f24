@@ -7,7 +7,7 @@ Style the body of the page with:
 */
 
 body {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana; /*, sans-serif*/
     background-color: #000000;
     color: #ffffff;
     margin: 20px 20px 0px;
@@ -69,7 +69,7 @@ Style the default div elements with:
 3. A 3px solid white border on all sides.
 */
 div {
-    height: 130px; /*at least 125px*/
+    min-height: 125px; /*at least 125px*/
     padding: 20px;
     border: 3px solid #ffffff;
 }
