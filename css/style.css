@@ -1,0 +1,204 @@
+/*
+Style the body of the page with:
+1. Default text is Arial font with Verdana as a fallback option
+2. Black background (use hexadecimal values)
+3. White font (use hexadecimal values)
+4. Margin of 20px on the top and sides.  None on the bottom.
+*/
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px 20px 0px;
+}
+
+
+/*
+Style the h1 heading with:
+1. 42px centered font 
+2. Padding of 15px
+*/
+h1 {
+    text-align: center;
+    font-size: 42px;
+    padding: 15px;
+}
+
+
+/*
+Style the h2 heading with:
+1. 30px dark gray font (#0D0D0D) 
+*/
+h2 {
+    color: #0d0d0d;
+    font-size: 30px;
+}
+
+
+/*
+Style the default paragraphs with: 
+1. 24px font
+2. Padding of 10px on the top and left only
+*/
+p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+/*
+Style the default style for images so that:
+1. All images are 250px wide  (do not set a height)
+2. All images are centered 
+3. All images have a white 10px dashed border
+*/
+img {
+    width: 250px;
+    display: block;
+    margin: auto; /*centered*/
+    border: 10px dashed #ffffff;
+}
+
+
+/*
+Style the default div elements with:
+1. A flexible height of at least 125px tall 
+2. Padding of 20px on all sides
+3. A 3px solid white border on all sides.
+*/
+div {
+    height: 125px; /*at least 125px*/
+    padding: 20px;
+    border: 3px solid #ffffff;
+}
+
+
+/*
+Style the introduction class with:
+1. 15px border-radius (to curve the edges)
+2. Margin of 15px margin on the top
+3. Double-spaced text
+*/
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 200%;
+}
+
+/*
+Style the red class with:
+1. Background color is hexadecimal value for red
+2. Text is aligned on the right side 
+3. A left margin of 50px;
+4. A border of 2px on the bottom and 5px on the left;
+*/
+.red {
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #ffffff; /*the color of borders?*/
+    border-left: 5px solid #ffffff;
+    border-top: none;
+    border-right: none;
+}
+
+
+/*
+The blue div has the following styles
+1. Background color is hex value for blue
+2. Text is aligned on the left side
+3. A right margin of 50px;
+4. A  border of 5px on the right and 2px on the top;
+    WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  – Dark on blue is too hard to read.   
+5. Use #C4C4C4 for the heading and paragraph text
+*/
+.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid #ffffff; /*the color of borders?*/
+    border-top: 2px solid #ffffff;
+    border-bottom: none;
+    border-left: none;
+    color: #c4c4c4;
+}
+
+.blue h2 {
+    color: #c4c4c4;
+}
+
+.blue p {
+    color: #c4c4c4;
+}
+
+
+/*
+The yellow div has the following styles
+1. Background color is hexadecimal value for yellow 
+2. Text is aligned on the right side
+3. A left margin of 50px;
+4. A border of 2px on the bottom and 5px on the left;
+    WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  too
+5. Use #707070 for the paragraph text
+*/
+.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #ffffff; /*the color of borders?*/
+    border-left: 5px solid #ffffff;
+    border-top: none;
+    border-right: none;
+}
+
+.yellow p {
+    color: #707070;
+}
+
+
+/*
+The green div has the following styles:
+1. The background color is a hexadecimal value for green  (You must use #00EB00, #008500, or #00D800)
+2. Text is aligned on the left side
+3. A right margin of 50px;
+4. A border of 5px on the right and 2px on the top;
+*/
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid #ffffff; /*the color of borders?*/
+    border-top: 2px solid #ffffff;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+/*
+Style the default footer elements with:
+1. a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000.
+2. A 5px solid white border.
+*/
+footer {
+    background-image: linear-gradient(
+        to right, 
+        #000000 0%, 
+        #0000ff 25%, 
+        #0066ff 70%, 
+        #000000 100%
+    );
+    border: 5px solid #ffffff;
+}
+
+
+/*
+Style any paragraphs within the footer with:
+1. 20px text that is aligned to the right.
+2. Padding of 15px on the top, right, and bottom only. (No padding on the left.)
+*/
+footer p {
+    text-align: right;
+    padding: 15px 15px 15px 0px;
+}
