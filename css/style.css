@@ -69,7 +69,7 @@ Style the default div elements with:
 3. A 3px solid white border on all sides.
 */
 div {
-    height: 125px; /*at least 125px*/
+    height: 130px; /*at least 125px*/
     padding: 20px;
     border: 3px solid #ffffff;
 }
@@ -200,5 +200,6 @@ Style any paragraphs within the footer with:
 */
 footer p {
     text-align: right;
+    font-size: 20px;
     padding: 15px 15px 15px 0px;
 }
